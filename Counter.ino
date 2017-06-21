@@ -1,10 +1,10 @@
 /*----------------------------------------------------------------------------------------------
 ************************************ PREPARING FOR RIA'S CODE ************************************
-  Author		: Abu Zanki
+  Author	: Abu Zanki
   Date		: 8th June 2015
   Information	: - Using Timer/Counter 1 16-bit As Counter
-			  - Using Timer/Counter 2 8-bit As Timer with 1 ms range of interrupt
-			  - Using Serial Communication with State Machine As Communication Protocol
+		  - Using Timer/Counter 2 8-bit As Timer with 10 ms default range of interupt (can be changed)
+		  - Using Serial Communication with State Machine As Communication Protocol
   ----------------------------------------------------------------------------------------------*/
 #include "TextCommand.h"
 #include <TLC5615.h>
